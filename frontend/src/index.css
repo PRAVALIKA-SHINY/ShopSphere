@@ -1,0 +1,205 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base styles */
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-slate-50 text-slate-800 antialiased;
+    min-width: 320px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: Georgia, "Times New Roman", serif;
+  }
+
+  button,
+  input,
+  select,
+  textarea {
+    font: inherit;
+  }
+}
+
+/* Reusable ShopSphere components */
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl font-semibold text-white transition-all duration-200;
+    background-color: #14b8a6;
+    box-shadow: 0 8px 20px rgba(15, 23, 42, 0.08);
+  }
+
+  .btn-primary:hover {
+    background-color: #0d9488;
+    box-shadow: 0 14px 30px rgba(15, 23, 42, 0.12);
+  }
+
+  .btn-primary:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 bg-white text-slate-700 border border-slate-200 px-5 py-3 rounded-xl font-semibold transition-all duration-200;
+  }
+
+  .btn-secondary:hover {
+    background-color: #f0fdfa;
+  }
+
+  .btn-rose {
+    @apply inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl font-semibold transition-all duration-200;
+    background-color: #ffe4e6;
+    color: #be123c;
+  }
+
+  .btn-rose:hover {
+    background-color: #fecdd3;
+  }
+
+  .card {
+    @apply bg-white rounded-2xl border border-slate-100;
+    box-shadow: 0 6px 20px rgba(15, 23, 42, 0.06);
+  }
+
+  .dashboard-card {
+    @apply bg-white border border-slate-100 rounded-2xl;
+    box-shadow: 0 6px 20px rgba(15, 23, 42, 0.06);
+  }
+
+  .field-label {
+    @apply text-sm font-semibold text-slate-700;
+  }
+
+  .input-field {
+    @apply w-full px-4 py-3.5 rounded-xl border border-slate-200 bg-white text-slate-800 placeholder:text-slate-400 outline-none transition-all;
+  }
+
+  .input-field:focus {
+    border-color: #2dd4bf;
+    box-shadow: 0 0 0 4px rgba(204, 251, 241, 0.8);
+  }
+
+  .section-title {
+    @apply text-3xl md:text-4xl font-semibold text-slate-800;
+    font-family: Georgia, "Times New Roman", serif;
+  }
+
+  .eyebrow {
+    @apply text-[11px] uppercase tracking-[0.20em] font-semibold;
+    color: #0d9488;
+  }
+
+  .badge-soft {
+    @apply inline-flex items-center gap-1 text-xs font-semibold px-2.5 py-1 rounded-full;
+  }
+
+  .soft-page {
+    background-color: #fcfbf9;
+  }
+}
+
+/* ShopSphere custom utility classes */
+
+.bg-cream {
+  background-color: #fcfbf9;
+}
+
+.text-ink {
+  color: #1e293b;
+}
+
+.bg-brand-50 {
+  background-color: #f0fdfa;
+}
+
+.bg-brand-100 {
+  background-color: #ccfbf1;
+}
+
+.bg-brand-500 {
+  background-color: #14b8a6;
+}
+
+.bg-brand-600 {
+  background-color: #0d9488;
+}
+
+.bg-brand-700 {
+  background-color: #0f766e;
+}
+
+.text-brand-500 {
+  color: #14b8a6;
+}
+
+.text-brand-600 {
+  color: #0d9488;
+}
+
+.text-brand-700 {
+  color: #0f766e;
+}
+
+.border-brand-300 {
+  border-color: #5eead4;
+}
+
+.bg-mint-50 {
+  background-color: #ecfdf5;
+}
+
+.text-mint-500 {
+  color: #10b981;
+}
+
+.shadow-soft {
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.08);
+}
+
+.shadow-lift {
+  box-shadow: 0 14px 30px rgba(15, 23, 42, 0.12);
+}
+
+.shadow-card {
+  box-shadow: 0 6px 20px rgba(15, 23, 42, 0.06);
+}
+
+/* ShopSphere font utility fallbacks */
+
+.font-sans {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.font-display {
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+  width: 9px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f8fafc;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d8e4e8;
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #c2d5dc;
+}
