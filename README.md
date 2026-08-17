@@ -252,6 +252,65 @@ ShopSphere/
 
 
 
+## 9. Prerequisites
+````markdown
+- Java 17+
+- Node.js 18+
+- PostgreSQL
+- Maven
+````
+## 10. Environment Configuration
+
+Configure the required database credentials and JWT secret using the provided `.env.example` and `application.properties.example` files.
+
+## 11. Setup & Run
+
+### Backend
+
+```bash
+cd backend
+mvn spring-boot:run
+```
+
+### Frontend
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+Backend: `http://localhost:8086`
+Frontend: `http://localhost:5173`
+
+## 12. API Overview
+
+REST APIs are provided for authentication, products, customers, cart, wishlist, orders, reviews, employees, admin management, and dashboards.
+
+## 13. Security
+
+* JWT authentication
+* Role-based authorization
+* Sensitive credentials excluded from Git
+
+## 14. Future Improvements
+
+* Real payment gateway
+* Email notifications
+* Advanced analytics
+* Cloud image storage
+* CI/CD deployment
+
+## Author
+
+**Pravalika**
+
+GitHub: **PRAVALIKA-SHINY**
+
+
+
+
+
 
 
 
