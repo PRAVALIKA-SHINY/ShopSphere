@@ -1,4 +1,3 @@
-# ShopSphere
 
 ## 1. Project Overview
 
@@ -172,8 +171,8 @@ The order system manages:
 ---
 
 ## 7. Project Structure
+```
 
-```text
 ShopSphere/
 │
 ├── backend/
@@ -218,3 +217,58 @@ ShopSphere/
 ├── .gitignore
 └── README.md
 ```
+
+## Screenshots
+
+### Home Page
+<img width="1920" height="897" alt="Home" src="https://github.com/user-attachments/assets/c30c802a-db63-430c-b0fb-2de214c08a80" /> 
+
+### Shop & Product Catalog
+<img width="1920" height="902" alt="Shop" src="https://github.com/user-attachments/assets/7b367fbf-eef0-4666-aadb-1552ba2a8f60" />
+
+### Product Search
+<img width="1920" height="903" alt="Search" src="https://github.com/user-attachments/assets/26c33506-e181-470d-a394-36f82e045138" />
+
+### Product Details
+<img width="1920" height="913" alt="ProductDetails" src="https://github.com/user-attachments/assets/1fda4ba8-110d-46a3-9989-ac3f24a3d9cb" />
+
+### Shopping Cart
+<img width="1920" height="891" alt="Cart" src="https://github.com/user-attachments/assets/ecf13069-655a-47d2-b7ec-5bdc016aa7c8" />
+
+### Checkout & Payment
+<img width="1920" height="913" alt="Checkout" src="https://github.com/user-attachments/assets/ee801374-3abb-419e-8572-e0add1dd2a0e" />
+
+### Order Success
+<img width="1920" height="904" alt="OrderSuccess" src="https://github.com/user-attachments/assets/6204a77b-7123-4f50-ab59-71b2e85c550a" />
+
+### Employee Dashboard
+<img width="1920" height="904" alt="EmployeeOverView" src="https://github.com/user-attachments/assets/32b368e0-2683-45c9-b405-bcaa88c3b2c8" />
+
+### Employee Product Management
+<img width="1920" height="923" alt="EmployeeProduct" src="https://github.com/user-attachments/assets/0e3e1cb2-4e4a-4636-ac62-e737fa74e3e6" />
+
+### Admin Dashboard
+<img width="1920" height="918" alt="AdminOverview" src="https://github.com/user-attachments/assets/401d42a9-b715-49f6-8da4-e894b8715b9f" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
